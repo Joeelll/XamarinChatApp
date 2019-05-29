@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "106064262407",
+    "firebase_url": "https://chatappusingfirebase-tptta.firebaseio.com",
+    "project_id": "chatappusingfirebase-tptta",
+    "storage_bucket": "chatappusingfirebase-tptta.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:106064262407:android:5d8438f2509bb662",
+        "android_client_info": {
+          "package_name": "ChatAppUsingFirebase.ChatAppUsingFirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "106064262407-c2bpobb7as59l1ke4sc74ipjuvnss4ph.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ChatAppUsingFirebase.ChatAppUsingFirebase",
+            "certificate_hash": "48ebd1b046eb9ea622a7023a49ebe87c821bf658"
+          }
+        },
+        {
+          "client_id": "106064262407-1ev7bna9j73pudk4d1663sdrrrmojd7g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9_EiE8NYuth1BNcNxvTCvjeyVfJ--U4Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "106064262407-1ev7bna9j73pudk4d1663sdrrrmojd7g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
