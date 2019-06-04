@@ -3,16 +3,20 @@
     android:padding="16dp"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    
-    <android.support.design.widget.FloatingActionButton 
-      android:layout_width="wrap_content" 
-      android:layout_height="wrap_content" 
-      android:clickable="true" 
-      android:src="@drawable/send" 
-      android:id="@+id/fab" 
-      android:tint="@android:color/white" 
-      android:layout_alignParentBottom="true" 
-      android:layout_alignParentEnd="true"/>  
+    <Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary" />
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:src="@drawable/send"
+        android:id="@+id/fab"
+        android:tint="@android:color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
     <EditText
         android:layout_toLeftOf="@+id/fab"
         android:layout_alignParentBottom="true"

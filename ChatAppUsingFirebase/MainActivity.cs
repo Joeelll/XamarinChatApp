@@ -4,6 +4,7 @@ using Android.OS;
 using Android.Runtime;
 using Android.Support.Design.Widget;
 using Android.Support.V7.App;
+using Android.Views;
 using Android.Widget;
 using Firebase.Auth;
 using Firebase.Database;
@@ -12,7 +13,7 @@ using System.Collections.Generic;
 
 namespace ChatAppUsingFirebase
 {
-    [Activity(Label = "ChatAppUsingFirebase", MainLauncher = true, Theme ="@style/Theme.AppCompat.Light.NoActionBar")]
+    [Activity(Label = "@string/app_name", MainLauncher = true, Theme ="@style/AppTheme.NoActionBar")]
     public class MainActivity : AppCompatActivity, IValueEventListener
     {
         private FirebaseClient firebaseClient;
@@ -20,6 +21,7 @@ namespace ChatAppUsingFirebase
         private ListView lstChat;
         private EditText edtChat;
         private FloatingActionButton fab;
+        public static MainActivity _mainActivity { get; set; }
 
         public int MyResultCode = 1;
 
@@ -30,15 +32,22 @@ namespace ChatAppUsingFirebase
         
         protected override void OnCreate(Bundle savedInstanceState)
         {
-            base.OnCreate(savedInstanceState);
 
-            // Set our view from the "main" layout resource
+            _mainActivity = this;
+            base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.Main);
+
             firebaseClient = new FirebaseClient(GetString(Resource.String.firebase_database_url));
             FirebaseDatabase.Instance.GetReference("chats").AddValueEventListener(this);
+
             fab = FindViewById<FloatingActionButton>(Resource.Id.fab);
             edtChat = FindViewById<EditText>(Resource.Id.input);
             lstChat = FindViewById<ListView>(Resource.Id.list_of_messages);
+
+            var toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
+            SetActionBar(toolbar);
+            ActionBar.Title = "Firebase Chatapp";
+            _mainActivity = this;
 
             fab.Click += delegate { PostMessage(); };
 
@@ -49,6 +58,12 @@ namespace ChatAppUsingFirebase
                 Toast.MakeText(this, "Welcome" + FirebaseAuth.Instance.CurrentUser.Email, ToastLength.Short).Show();
                 DisplayChatMessage();
             }
+        }
+
+        public override bool OnCreateOptionsMenu(IMenu menu)
+        {
+            MenuInflater.Inflate(Resource.Menu.top_menus, menu);
+            return base.OnCreateOptionsMenu(menu);
         }
 
         private async void PostMessage()
