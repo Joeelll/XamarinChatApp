@@ -44,8 +44,15 @@ namespace ChatAppUsingFirebase
             var btnSignIn = FindViewById<Button>(Resource.Id.btnSingIn);
             btnSignIn.Click += delegate 
             {
-                auth.CreateUserWithEmailAndPassword(edtEmail.Text, edtPassword.Text)
-                .AddOnCompleteListener(this);
+                if (edtEmail.Text == ""  && edtPassword.Text == "" || edtEmail.Text == "" || edtPassword.Text == "")
+                {
+                    Toast.MakeText(Application.Context, "Please enter a valid email and password", ToastLength.Short).Show();
+                }
+                else
+                {
+                    auth.CreateUserWithEmailAndPassword(edtEmail.Text, edtPassword.Text)
+                    .AddOnCompleteListener(this);
+                }
             };
         }
     }
