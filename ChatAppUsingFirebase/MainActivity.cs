@@ -9,6 +9,7 @@ using Android.Widget;
 using Firebase.Auth;
 using Firebase.Database;
 using Firebase.Xamarin.Database;
+using System;
 using System.Collections.Generic;
 
 namespace ChatAppUsingFirebase
@@ -33,7 +34,6 @@ namespace ChatAppUsingFirebase
         protected override void OnCreate(Bundle savedInstanceState)
         {
 
-            _mainActivity = this;
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.Main);
 
@@ -68,8 +68,15 @@ namespace ChatAppUsingFirebase
 
         private async void PostMessage()
         {
-            var items = await firebaseClient.Child("chats").PostAsync(new MessageContent(FirebaseAuth.Instance.CurrentUser.Email, edtChat.Text));
-            edtChat.Text = "";
+            if (edtChat.Text == "")
+            {
+                Toast.MakeText(this, "Please insert a messsage to send", ToastLength.Short).Show();
+            }
+            else
+            {
+                var items = await firebaseClient.Child("chats").PostAsync(new MessageContent(FirebaseAuth.Instance.CurrentUser.Email, edtChat.Text));
+                edtChat.Text = ""; 
+            }
         }
         public void OnCancelled(DatabaseError error)
         {
