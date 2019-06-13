@@ -52,7 +52,7 @@ namespace ChatAppUsingFirebase
             fab.Click += delegate { PostMessage(); };
 
             if (FirebaseAuth.Instance.CurrentUser == null)
-                StartActivityForResult(new Android.Content.Intent(this, typeof(SignIn)), MyResultCode);
+                StartActivityForResult(new Intent(this, typeof(SignIn)), MyResultCode);
             else
             {
                 Toast.MakeText(this, "Welcome" + FirebaseAuth.Instance.CurrentUser.Email, ToastLength.Short).Show();
@@ -64,6 +64,26 @@ namespace ChatAppUsingFirebase
         {
             MenuInflater.Inflate(Resource.Menu.top_menus, menu);
             return base.OnCreateOptionsMenu(menu);
+        }
+
+        public override bool OnOptionsItemSelected(IMenuItem item)
+        {
+            switch (item.ItemId)
+            {
+                case Resource.Id.menu_Logout:
+                    LogOut();
+                    break;
+                default:
+                    break;
+            }
+
+            return base.OnOptionsItemSelected(item);
+        }
+
+        public void LogOut()
+        {
+            Toast.MakeText(this, "Logged out!", ToastLength.Short).Show();
+            StartActivity(typeof(SignIn));
         }
 
         private async void PostMessage()
