@@ -6,6 +6,7 @@ using Android.Support.Design.Widget;
 using Android.Support.V7.App;
 using Android.Views;
 using Android.Widget;
+using Firebase;
 using Firebase.Auth;
 using Firebase.Database;
 using Firebase.Xamarin.Database;
@@ -19,6 +20,7 @@ namespace ChatAppUsingFirebase
     {
         private FirebaseClient firebaseClient;
         private List<MessageContent> lstMessage = new List<MessageContent>();
+        private FirebaseAuth auth;
         private ListView lstChat;
         private EditText edtChat;
         private FloatingActionButton fab;
@@ -30,16 +32,15 @@ namespace ChatAppUsingFirebase
         {
             base.OnActivityResult(requestCode, resultCode, data);
         }
-        
+
         protected override void OnCreate(Bundle savedInstanceState)
         {
-
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.Main);
+            auth = FirebaseAuth.Instance;
 
             firebaseClient = new FirebaseClient(GetString(Resource.String.firebase_database_url));
             FirebaseDatabase.Instance.GetReference("chats").AddValueEventListener(this);
-
             fab = FindViewById<FloatingActionButton>(Resource.Id.fab);
             edtChat = FindViewById<EditText>(Resource.Id.input);
             lstChat = FindViewById<ListView>(Resource.Id.list_of_messages);
@@ -47,15 +48,15 @@ namespace ChatAppUsingFirebase
             var toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
             SetActionBar(toolbar);
             ActionBar.Title = "Firebase Chatapp";
-            _mainActivity = this;
 
             fab.Click += delegate { PostMessage(); };
 
-            if (FirebaseAuth.Instance.CurrentUser == null)
+            if (FirebaseAuth.Instance.CurrentUser == null) {
                 StartActivityForResult(new Intent(this, typeof(SignIn)), MyResultCode);
+            }
             else
             {
-                Toast.MakeText(this, "Welcome" + FirebaseAuth.Instance.CurrentUser.Email, ToastLength.Short).Show();
+                Toast.MakeText(this, "Welcome " + FirebaseAuth.Instance.CurrentUser.Email, ToastLength.Short).Show();
                 DisplayChatMessage();
             }
         }
@@ -71,7 +72,7 @@ namespace ChatAppUsingFirebase
             switch (item.ItemId)
             {
                 case Resource.Id.menu_Logout:
-                    LogOut();
+                    LogoutUser();
                     break;
                 default:
                     break;
@@ -80,10 +81,14 @@ namespace ChatAppUsingFirebase
             return base.OnOptionsItemSelected(item);
         }
 
-        public void LogOut()
+        public void LogoutUser()
         {
-            Toast.MakeText(this, "Logged out!", ToastLength.Short).Show();
-            StartActivity(typeof(SignIn));
+            auth.SignOut();
+            if (auth.CurrentUser == null)
+            {
+                Toast.MakeText(this, "Logged out!", ToastLength.Short).Show();
+                StartActivityForResult(new Intent(this, typeof(SignIn)), MyResultCode);
+            }
         }
 
         private async void PostMessage()

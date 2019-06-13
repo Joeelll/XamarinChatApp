@@ -1,15 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Android.App;
-using Android.Content;
+﻿using Android.App;
 using Android.Gms.Tasks;
 using Android.OS;
-using Android.Runtime;
 using Android.Support.V7.App;
-using Android.Views;
 using Android.Widget;
+using Firebase;
 using Firebase.Auth;
 
 namespace ChatAppUsingFirebase
@@ -38,13 +32,26 @@ namespace ChatAppUsingFirebase
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.SignIn);
             auth = FirebaseAuth.Instance;
-            // Create your application here
             var edtEmail = FindViewById<EditText>(Resource.Id.edtEmail);
             var edtPassword = FindViewById<EditText>(Resource.Id.edtPassword);
             var btnSignIn = FindViewById<Button>(Resource.Id.btnSingIn);
+            var btnSignUp = FindViewById<Button>(Resource.Id.btnSignUp);
             btnSignIn.Click += delegate 
             {
                 if (edtEmail.Text == ""  && edtPassword.Text == "" || edtEmail.Text == "" || edtPassword.Text == "")
+                {
+                    Toast.MakeText(Application.Context, "Please enter a valid email and password", ToastLength.Short).Show();
+                }
+                else
+                {
+                    auth.SignInWithEmailAndPassword(edtEmail.Text, edtPassword.Text)
+                    .AddOnCompleteListener(this);
+                }
+            };
+
+            btnSignUp.Click += delegate
+            {
+                if (edtEmail.Text == "" && edtPassword.Text == "" || edtEmail.Text == "" || edtPassword.Text == "")
                 {
                     Toast.MakeText(Application.Context, "Please enter a valid email and password", ToastLength.Short).Show();
                 }

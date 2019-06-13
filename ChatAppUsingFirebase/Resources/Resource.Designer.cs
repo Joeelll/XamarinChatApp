@@ -2549,6 +2549,9 @@ namespace ChatAppUsingFirebase
 			// aapt resource value: 0x7f0b0045
 			public const int bottom = 2131427397;
 			
+			// aapt resource value: 0x7f0b00bd
+			public const int btnSignUp = 2131427517;
+			
 			// aapt resource value: 0x7f0b00bc
 			public const int btnSingIn = 2131427516;
 			
@@ -2732,17 +2735,17 @@ namespace ChatAppUsingFirebase
 			// aapt resource value: 0x7f0b00a6
 			public const int list_of_messages = 2131427494;
 			
-			// aapt resource value: 0x7f0b00bf
-			public const int masked = 2131427519;
+			// aapt resource value: 0x7f0b00c0
+			public const int masked = 2131427520;
 			
 			// aapt resource value: 0x7f0b00ad
 			public const int media_actions = 2131427501;
 			
-			// aapt resource value: 0x7f0b00c0
-			public const int menu_Logout = 2131427520;
+			// aapt resource value: 0x7f0b00c1
+			public const int menu_Logout = 2131427521;
 			
-			// aapt resource value: 0x7f0b00bd
-			public const int message = 2131427517;
+			// aapt resource value: 0x7f0b00be
+			public const int message = 2131427518;
 			
 			// aapt resource value: 0x7f0b00a2
 			public const int message_text = 2131427490;
@@ -3005,8 +3008,8 @@ namespace ChatAppUsingFirebase
 			// aapt resource value: 0x7f0b0016
 			public const int view_offset_helper = 2131427350;
 			
-			// aapt resource value: 0x7f0b00be
-			public const int visible = 2131427518;
+			// aapt resource value: 0x7f0b00bf
+			public const int visible = 2131427519;
 			
 			// aapt resource value: 0x7f0b0022
 			public const int wide = 2131427362;
