@@ -358,8 +358,8 @@ namespace ChatAppUsingFirebase
 			// aapt resource value: 0x7F040047
 			public const int buttonPanelSideLayout = 2130968647;
 			
-			// aapt resource value: 0x7F070351
-			public const int buttonSize = 2131166033;
+			// aapt resource value: 0x7F100351
+			public const int buttonSize = 2131755857;
 			
 			// aapt resource value: 0x7F040048
 			public const int buttonStyle = 2130968648;
@@ -502,8 +502,8 @@ namespace ChatAppUsingFirebase
 			// aapt resource value: 0x7F04004D
 			public const int checkedTextViewStyle = 2130968653;
 			
-			// aapt resource value: 0x7F070350
-			public const int circleCrop = 2131166032;
+			// aapt resource value: 0x7F100350
+			public const int circleCrop = 2131755856;
 			
 			// aapt resource value: 0x7F04004E
 			public const int closeIcon = 2130968654;
@@ -553,8 +553,8 @@ namespace ChatAppUsingFirebase
 			// aapt resource value: 0x7F04005D
 			public const int colorPrimaryDark = 2130968669;
 			
-			// aapt resource value: 0x7F070352
-			public const int colorScheme = 2131166034;
+			// aapt resource value: 0x7F100352
+			public const int colorScheme = 2131755858;
 			
 			// aapt resource value: 0x7F04005E
 			public const int colorSwitchThumbNormal = 2130968670;
@@ -811,11 +811,11 @@ namespace ChatAppUsingFirebase
 			// aapt resource value: 0x7F0400A6
 			public const int iconTintMode = 2130968742;
 			
-			// aapt resource value: 0x7F070349
-			public const int imageAspectRatio = 2131166025;
+			// aapt resource value: 0x7F100349
+			public const int imageAspectRatio = 2131755849;
 			
-			// aapt resource value: 0x7F070348
-			public const int imageAspectRatioAdjust = 2131166024;
+			// aapt resource value: 0x7F100348
+			public const int imageAspectRatioAdjust = 2131755848;
 			
 			// aapt resource value: 0x7F0400A8
 			public const int imageButtonStyle = 2130968744;
@@ -1099,8 +1099,8 @@ namespace ChatAppUsingFirebase
 			// aapt resource value: 0x1
 			public const int schemaOrgType = 1;
 			
-			// aapt resource value: 0x7F070353
-			public const int scopeUris = 2131166035;
+			// aapt resource value: 0x7F100353
+			public const int scopeUris = 2131755859;
 			
 			// aapt resource value: 0x7F0400F1
 			public const int scrimAnimationDuration = 2130968817;
@@ -1689,38 +1689,47 @@ namespace ChatAppUsingFirebase
 			// aapt resource value: 0x1
 			public const int cast_libraries_material_featurehighlight_text_header_color = 1;
 			
-			// aapt resource value: 0x7F060097
-			public const int common_google_signin_btn_text_dark = 2131099799;
+			// aapt resource value: 0x7F060004
+			public const int colorAccent = 2131099652;
+			
+			// aapt resource value: 0x7F060002
+			public const int colorPrimary = 2131099650;
+			
+			// aapt resource value: 0x7F060003
+			public const int colorPrimaryDark = 2131099651;
 			
 			// aapt resource value: 0x7F060100
-			public const int common_google_signin_btn_text_dark_default = 2131099904;
-			
-			// aapt resource value: 0x7F060101
-			public const int common_google_signin_btn_text_dark_disabled = 2131099905;
-			
-			// aapt resource value: 0x7F060102
-			public const int common_google_signin_btn_text_dark_focused = 2131099906;
+			public const int common_google_signin_btn_text_dark = 2131099904;
 			
 			// aapt resource value: 0x7F060103
-			public const int common_google_signin_btn_text_dark_pressed = 2131099907;
-			
-			// aapt resource value: 0x7F060098
-			public const int common_google_signin_btn_text_light = 2131099800;
+			public const int common_google_signin_btn_text_dark_default = 2131099907;
 			
 			// aapt resource value: 0x7F060104
-			public const int common_google_signin_btn_text_light_default = 2131099908;
+			public const int common_google_signin_btn_text_dark_disabled = 2131099908;
 			
 			// aapt resource value: 0x7F060105
-			public const int common_google_signin_btn_text_light_disabled = 2131099909;
+			public const int common_google_signin_btn_text_dark_focused = 2131099909;
 			
 			// aapt resource value: 0x7F060106
-			public const int common_google_signin_btn_text_light_focused = 2131099910;
+			public const int common_google_signin_btn_text_dark_pressed = 2131099910;
+			
+			// aapt resource value: 0x7F060101
+			public const int common_google_signin_btn_text_light = 2131099905;
 			
 			// aapt resource value: 0x7F060107
-			public const int common_google_signin_btn_text_light_pressed = 2131099911;
+			public const int common_google_signin_btn_text_light_default = 2131099911;
 			
-			// aapt resource value: 0x7F060099
-			public const int common_google_signin_btn_tint = 2131099801;
+			// aapt resource value: 0x7F060108
+			public const int common_google_signin_btn_text_light_disabled = 2131099912;
+			
+			// aapt resource value: 0x7F060109
+			public const int common_google_signin_btn_text_light_focused = 2131099913;
+			
+			// aapt resource value: 0x7F060110
+			public const int common_google_signin_btn_text_light_pressed = 2131099920;
+			
+			// aapt resource value: 0x7F060102
+			public const int common_google_signin_btn_tint = 2131099906;
 			
 			// aapt resource value: 0x7F060027
 			public const int design_bottom_navigation_shadow_color = 2131099687;
@@ -3327,11 +3336,11 @@ namespace ChatAppUsingFirebase
 			// aapt resource value: 0x7F0C0015
 			public const int add = 2131492885;
 			
-			// aapt resource value: 0x7F020157
-			public const int adjust_height = 2130837847;
+			// aapt resource value: 0x7F020160
+			public const int adjust_height = 2130837856;
 			
-			// aapt resource value: 0x7F020156
-			public const int adjust_width = 2130837846;
+			// aapt resource value: 0x7F020159
+			public const int adjust_width = 2130837849;
 			
 			// aapt resource value: 0x1
 			public const int ad_container = 1;
@@ -3360,11 +3369,11 @@ namespace ChatAppUsingFirebase
 			// aapt resource value: 0x1
 			public const int android_pay_light_with_border = 1;
 			
-			// aapt resource value: 0x7F020155
-			public const int app_name = 2130837845;
+			// aapt resource value: 0x7F020166
+			public const int APP_NAME = 2130837862;
 			
-			// aapt resource value: 0x7F020163
-			public const int APP_NAME = 2130837859;
+			// aapt resource value: 0x7F020158
+			public const int app_name = 2130837848;
 			
 			// aapt resource value: 0x7F0C0006
 			public const int async = 2131492870;
@@ -3393,8 +3402,11 @@ namespace ChatAppUsingFirebase
 			// aapt resource value: 0x7F0C001A
 			public const int bottom = 2131492890;
 			
-			// aapt resource value: 0x7F020010
-			public const int btnSingIn = 2130837520;
+			// aapt resource value: 0x7F020012
+			public const int btnSignUp = 2130837522;
+			
+			// aapt resource value: 0x7F020011
+			public const int btnSingIn = 2130837521;
 			
 			// aapt resource value: 0x1
 			public const int button = 1;
@@ -3513,8 +3525,8 @@ namespace ChatAppUsingFirebase
 			// aapt resource value: 0x7F0C0024
 			public const int customPanel = 2131492900;
 			
-			// aapt resource value: 0x7F020161
-			public const int dark = 2130837857;
+			// aapt resource value: 0x7F020164
+			public const int dark = 2130837860;
 			
 			// aapt resource value: 0x1
 			public const int date = 1;
@@ -3555,11 +3567,11 @@ namespace ChatAppUsingFirebase
 			// aapt resource value: 0x7F0C002C
 			public const int edit_query = 2131492908;
 			
-			// aapt resource value: 0x7F020008
-			public const int edtEmail = 2130837512;
-			
 			// aapt resource value: 0x7F020009
-			public const int edtPassword = 2130837513;
+			public const int edtEmail = 2130837513;
+			
+			// aapt resource value: 0x7F020010
+			public const int edtPassword = 2130837520;
 			
 			// aapt resource value: 0x1
 			public const int email = 1;
@@ -3582,8 +3594,8 @@ namespace ChatAppUsingFirebase
 			// aapt resource value: 0x7F0C002F
 			public const int expand_activities_button = 2131492911;
 			
-			// aapt resource value: 0x7F020005
-			public const int fab = 2130837509;
+			// aapt resource value: 0x7F020006
+			public const int fab = 2130837510;
 			
 			// aapt resource value: 0x7F0C0031
 			public const int fill = 2131492913;
@@ -3630,8 +3642,8 @@ namespace ChatAppUsingFirebase
 			// aapt resource value: 0x7F0C000B
 			public const int icon_group = 2131492875;
 			
-			// aapt resource value: 0x7F020160
-			public const int icon_only = 2130837856;
+			// aapt resource value: 0x7F020163
+			public const int icon_only = 2130837859;
 			
 			// aapt resource value: 0x1
 			public const int icon_uri = 1;
@@ -3648,8 +3660,8 @@ namespace ChatAppUsingFirebase
 			// aapt resource value: 0x7F0C000C
 			public const int info = 2131492876;
 			
-			// aapt resource value: 0x7F020006
-			public const int input = 2130837510;
+			// aapt resource value: 0x7F020007
+			public const int input = 2130837511;
 			
 			// aapt resource value: 0x1
 			public const int instant_message = 1;
@@ -3696,8 +3708,8 @@ namespace ChatAppUsingFirebase
 			// aapt resource value: 0x1
 			public const int license_list = 1;
 			
-			// aapt resource value: 0x7F020162
-			public const int light = 2130837858;
+			// aapt resource value: 0x7F020165
+			public const int light = 2130837861;
 			
 			// aapt resource value: 0x7F0C000E
 			public const int line1 = 2131492878;
@@ -3711,8 +3723,8 @@ namespace ChatAppUsingFirebase
 			// aapt resource value: 0x7F0C0041
 			public const int list_item = 2131492929;
 			
-			// aapt resource value: 0x7F020007
-			public const int list_of_messages = 2130837511;
+			// aapt resource value: 0x7F020008
+			public const int list_of_messages = 2130837512;
 			
 			// aapt resource value: 0x1
 			public const int live_stream_indicator = 1;
@@ -3737,6 +3749,9 @@ namespace ChatAppUsingFirebase
 			
 			// aapt resource value: 0x7F0C0043
 			public const int media_actions = 2131492931;
+			
+			// aapt resource value: 0x7F020013
+			public const int menu_Logout = 2130837523;
 			
 			// aapt resource value: 0x7F0C0044
 			public const int message = 2131492932;
@@ -3954,8 +3969,8 @@ namespace ChatAppUsingFirebase
 			// aapt resource value: 0x7F0C0072
 			public const int src_over = 2131492978;
 			
-			// aapt resource value: 0x7F020158
-			public const int standard = 2130837848;
+			// aapt resource value: 0x7F020161
+			public const int standard = 2130837857;
 			
 			// aapt resource value: 0x7F0C0073
 			public const int start = 2131492979;
@@ -4044,8 +4059,8 @@ namespace ChatAppUsingFirebase
 			// aapt resource value: 0x1
 			public const int title_view = 1;
 			
-			// aapt resource value: 0x1
-			public const int toolbar = 1;
+			// aapt resource value: 0x7F020005
+			public const int toolbar = 2130837509;
 			
 			// aapt resource value: 0x7F0C0084
 			public const int top = 2131492996;
@@ -4086,8 +4101,8 @@ namespace ChatAppUsingFirebase
 			// aapt resource value: 0x7F0C008F
 			public const int visible = 2131493007;
 			
-			// aapt resource value: 0x7F020159
-			public const int wide = 2130837849;
+			// aapt resource value: 0x7F020162
+			public const int wide = 2130837858;
 			
 			// aapt resource value: 0x7F0C0090
 			public const int wrap_content = 2131493008;
@@ -4382,6 +4397,9 @@ namespace ChatAppUsingFirebase
 			// aapt resource value: 0x7F0F003B
 			public const int support_simple_spinner_dropdown_item = 2131689531;
 			
+			// aapt resource value: 0x7F030005
+			public const int toolbar = 2130903045;
+			
 			// aapt resource value: 0x7F0F003C
 			public const int tooltip = 2131689532;
 			
@@ -4394,6 +4412,38 @@ namespace ChatAppUsingFirebase
 			}
 			
 			private Layout()
+			{
+			}
+		}
+		
+		public partial class Menu
+		{
+			
+			// aapt resource value: 0x7F040002
+			public const int top_menus = 2130968578;
+			
+			static Menu()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Menu()
+			{
+			}
+		}
+		
+		public partial class Mipmap
+		{
+			
+			// aapt resource value: 0x7F050002
+			public const int logout = 2131034114;
+			
+			static Mipmap()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Mipmap()
 			{
 			}
 		}
@@ -4507,8 +4557,8 @@ namespace ChatAppUsingFirebase
 			// aapt resource value: 0x7F15001E
 			public const int appbar_scrolling_view_behavior = 2132082718;
 			
-			// aapt resource value: 0x7F040002
-			public const int app_name = 2130968578;
+			// aapt resource value: 0x7F070002
+			public const int app_name = 2131165186;
 			
 			// aapt resource value: 0x7F15001F
 			public const int bottom_sheet_behavior = 2132082719;
@@ -4636,56 +4686,56 @@ namespace ChatAppUsingFirebase
 			// aapt resource value: 0x7F150020
 			public const int character_counter_pattern = 2132082720;
 			
-			// aapt resource value: 0x7F040042
-			public const int common_google_play_services_enable_button = 2130968642;
+			// aapt resource value: 0x7F070042
+			public const int common_google_play_services_enable_button = 2131165250;
 			
-			// aapt resource value: 0x7F040043
-			public const int common_google_play_services_enable_text = 2130968643;
+			// aapt resource value: 0x7F070043
+			public const int common_google_play_services_enable_text = 2131165251;
 			
-			// aapt resource value: 0x7F040044
-			public const int common_google_play_services_enable_title = 2130968644;
+			// aapt resource value: 0x7F070044
+			public const int common_google_play_services_enable_title = 2131165252;
 			
-			// aapt resource value: 0x7F040045
-			public const int common_google_play_services_install_button = 2130968645;
+			// aapt resource value: 0x7F070045
+			public const int common_google_play_services_install_button = 2131165253;
 			
-			// aapt resource value: 0x7F040046
-			public const int common_google_play_services_install_text = 2130968646;
+			// aapt resource value: 0x7F070046
+			public const int common_google_play_services_install_text = 2131165254;
 			
-			// aapt resource value: 0x7F040047
-			public const int common_google_play_services_install_title = 2130968647;
+			// aapt resource value: 0x7F070047
+			public const int common_google_play_services_install_title = 2131165255;
 			
-			// aapt resource value: 0x7F040048
-			public const int common_google_play_services_notification_ticker = 2130968648;
+			// aapt resource value: 0x7F070048
+			public const int common_google_play_services_notification_ticker = 2131165256;
 			
 			// aapt resource value: 0x1
 			public const int common_google_play_services_unknown_issue = 1;
 			
-			// aapt resource value: 0x7F040049
-			public const int common_google_play_services_unsupported_text = 2130968649;
+			// aapt resource value: 0x7F070049
+			public const int common_google_play_services_unsupported_text = 2131165257;
 			
-			// aapt resource value: 0x7F040050
-			public const int common_google_play_services_update_button = 2130968656;
+			// aapt resource value: 0x7F070050
+			public const int common_google_play_services_update_button = 2131165264;
 			
-			// aapt resource value: 0x7F040051
-			public const int common_google_play_services_update_text = 2130968657;
+			// aapt resource value: 0x7F070051
+			public const int common_google_play_services_update_text = 2131165265;
 			
-			// aapt resource value: 0x7F040052
-			public const int common_google_play_services_update_title = 2130968658;
+			// aapt resource value: 0x7F070052
+			public const int common_google_play_services_update_title = 2131165266;
 			
-			// aapt resource value: 0x7F040053
-			public const int common_google_play_services_updating_text = 2130968659;
+			// aapt resource value: 0x7F070053
+			public const int common_google_play_services_updating_text = 2131165267;
 			
-			// aapt resource value: 0x7F040054
-			public const int common_google_play_services_wear_update_text = 2130968660;
+			// aapt resource value: 0x7F070054
+			public const int common_google_play_services_wear_update_text = 2131165268;
 			
-			// aapt resource value: 0x7F040055
-			public const int common_open_on_phone = 2130968661;
+			// aapt resource value: 0x7F070055
+			public const int common_open_on_phone = 2131165269;
 			
-			// aapt resource value: 0x7F040056
-			public const int common_signin_button_text = 2130968662;
+			// aapt resource value: 0x7F070056
+			public const int common_signin_button_text = 2131165270;
 			
-			// aapt resource value: 0x7F040057
-			public const int common_signin_button_text_long = 2130968663;
+			// aapt resource value: 0x7F070057
+			public const int common_signin_button_text_long = 2131165271;
 			
 			// aapt resource value: 0x1
 			public const int fcm_fallback_notification_channel_label = 1;
@@ -4792,6 +4842,18 @@ namespace ChatAppUsingFirebase
 			
 			// aapt resource value: 0x7F160006
 			public const int Animation_Design_BottomSheetDialog = 2132148230;
+			
+			// aapt resource value: 0x7F080002
+			public const int AppTheme = 2131230722;
+			
+			// aapt resource value: 0x7F080005
+			public const int AppTheme_AppBarOverlay = 2131230725;
+			
+			// aapt resource value: 0x7F080004
+			public const int AppTheme_NoActionBar = 2131230724;
+			
+			// aapt resource value: 0x7F080006
+			public const int AppTheme_PopupOverlay = 2131230726;
 			
 			// aapt resource value: 0x7F160007
 			public const int Base_AlertDialog_AppCompat = 2132148231;
@@ -5293,6 +5355,9 @@ namespace ChatAppUsingFirebase
 			
 			// aapt resource value: 0x1
 			public const int CustomCastTheme = 1;
+			
+			// aapt resource value: 0x7F080003
+			public const int MyTheme = 2131230723;
 			
 			// aapt resource value: 0x7F1600AA
 			public const int Platform_AppCompat = 2132148394;
@@ -6019,11 +6084,11 @@ namespace ChatAppUsingFirebase
 			public static int[] ActionBarLayout = new int[] {
 					16842931};
 			
-			// aapt resource value: 0x7F050047
-			public const int ActionBarLayout_android_layout_gravity = 2131034183;
+			// aapt resource value: 0x7F090047
+			public const int ActionBarLayout_android_layout_gravity = 2131296327;
 			
-			// aapt resource value: 0x7F050017
-			public const int ActionBar_background = 2131034135;
+			// aapt resource value: 0x7F090017
+			public const int ActionBar_background = 2131296279;
 			
 			// aapt resource value: 0x1
 			public const int ActionBar_backgroundSplit = 1;
@@ -6112,8 +6177,8 @@ namespace ChatAppUsingFirebase
 			public static int[] ActionMenuItemView = new int[] {
 					16843071};
 			
-			// aapt resource value: 0x7F050049
-			public const int ActionMenuItemView_android_minWidth = 2131034185;
+			// aapt resource value: 0x7F090049
+			public const int ActionMenuItemView_android_minWidth = 2131296329;
 			
 			public static int[] ActionMode = new int[] {
 					2130968626,
@@ -6123,8 +6188,8 @@ namespace ChatAppUsingFirebase
 					2130968847,
 					2130968901};
 			
-			// aapt resource value: 0x7F050051
-			public const int ActionMode_background = 2131034193;
+			// aapt resource value: 0x7F090051
+			public const int ActionMode_background = 2131296337;
 			
 			// aapt resource value: 0x1
 			public const int ActionMode_backgroundSplit = 1;
@@ -6145,8 +6210,8 @@ namespace ChatAppUsingFirebase
 					2130968704,
 					2130968746};
 			
-			// aapt resource value: 0x7F050058
-			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 2131034200;
+			// aapt resource value: 0x7F090058
+			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 2131296344;
 			
 			// aapt resource value: 0x1
 			public const int ActivityChooserView_initialActivityCount = 1;
@@ -6156,8 +6221,8 @@ namespace ChatAppUsingFirebase
 					1,
 					1};
 			
-			// aapt resource value: 0x7F050549
-			public const int AdsAttrs_adSize = 2131035465;
+			// aapt resource value: 0x7F090549
+			public const int AdsAttrs_adSize = 2131297609;
 			
 			// aapt resource value: 0x1
 			public const int AdsAttrs_adSizes = 1;
@@ -6174,8 +6239,8 @@ namespace ChatAppUsingFirebase
 					2130968828,
 					2130968829};
 			
-			// aapt resource value: 0x7F050061
-			public const int AlertDialog_android_layout = 2131034209;
+			// aapt resource value: 0x7F090061
+			public const int AlertDialog_android_layout = 2131296353;
 			
 			// aapt resource value: 0x1
 			public const int AlertDialog_buttonPanelSideLayout = 1;
@@ -6206,14 +6271,14 @@ namespace ChatAppUsingFirebase
 					2130968838,
 					2130968839};
 			
-			// aapt resource value: 0x7F050075
-			public const int AppBarLayoutStates_state_collapsed = 2131034229;
+			// aapt resource value: 0x7F090075
+			public const int AppBarLayoutStates_state_collapsed = 2131296373;
 			
 			// aapt resource value: 0x1
 			public const int AppBarLayoutStates_state_collapsible = 1;
 			
-			// aapt resource value: 0x7F050069
-			public const int AppBarLayout_android_background = 2131034217;
+			// aapt resource value: 0x7F090069
+			public const int AppBarLayout_android_background = 2131296361;
 			
 			// aapt resource value: 0x1
 			public const int AppBarLayout_android_keyboardNavigationCluster = 1;
@@ -6231,8 +6296,8 @@ namespace ChatAppUsingFirebase
 					2130968765,
 					2130968766};
 			
-			// aapt resource value: 0x7F050078
-			public const int AppBarLayout_Layout_layout_scrollFlags = 2131034232;
+			// aapt resource value: 0x7F090078
+			public const int AppBarLayout_Layout_layout_scrollFlags = 2131296376;
 			
 			// aapt resource value: 0x1
 			public const int AppBarLayout_Layout_layout_scrollInterpolator = 1;
@@ -6243,8 +6308,8 @@ namespace ChatAppUsingFirebase
 					2130968889,
 					2130968890};
 			
-			// aapt resource value: 0x7F050081
-			public const int AppCompatImageView_android_src = 2131034241;
+			// aapt resource value: 0x7F090081
+			public const int AppCompatImageView_android_src = 2131296385;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatImageView_srcCompat = 1;
@@ -6261,8 +6326,8 @@ namespace ChatAppUsingFirebase
 					2130968887,
 					2130968888};
 			
-			// aapt resource value: 0x7F050086
-			public const int AppCompatSeekBar_android_thumb = 2131034246;
+			// aapt resource value: 0x7F090086
+			public const int AppCompatSeekBar_android_thumb = 2131296390;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatSeekBar_tickMark = 1;
@@ -6282,8 +6347,8 @@ namespace ChatAppUsingFirebase
 					16843117,
 					16842804};
 			
-			// aapt resource value: 0x7F050091
-			public const int AppCompatTextHelper_android_drawableBottom = 2131034257;
+			// aapt resource value: 0x7F090091
+			public const int AppCompatTextHelper_android_drawableBottom = 2131296401;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatTextHelper_android_drawableEnd = 1;
@@ -6313,8 +6378,8 @@ namespace ChatAppUsingFirebase
 					2130968720,
 					2130968869};
 			
-			// aapt resource value: 0x7F050099
-			public const int AppCompatTextView_android_textAppearance = 2131034265;
+			// aapt resource value: 0x7F090099
+			public const int AppCompatTextView_android_textAppearance = 2131296409;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatTextView_autoSizeMaxTextSize = 1;
@@ -6458,8 +6523,8 @@ namespace ChatAppUsingFirebase
 					2130968921,
 					2130968922};
 			
-			// aapt resource value: 0x7F050108
-			public const int AppCompatTheme_actionBarDivider = 2131034376;
+			// aapt resource value: 0x7F090108
+			public const int AppCompatTheme_actionBarDivider = 2131296520;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatTheme_actionBarItemBackground = 1;
@@ -6825,8 +6890,8 @@ namespace ChatAppUsingFirebase
 					2130968753,
 					2130968783};
 			
-			// aapt resource value: 0x7F050228
-			public const int BottomNavigationView_elevation = 2131034664;
+			// aapt resource value: 0x7F090228
+			public const int BottomNavigationView_elevation = 2131296808;
 			
 			// aapt resource value: 0x1
 			public const int BottomNavigationView_itemBackground = 1;
@@ -6845,8 +6910,8 @@ namespace ChatAppUsingFirebase
 					2130968635,
 					2130968636};
 			
-			// aapt resource value: 0x7F050234
-			public const int BottomSheetBehavior_Layout_behavior_hideable = 2131034676;
+			// aapt resource value: 0x7F090234
+			public const int BottomSheetBehavior_Layout_behavior_hideable = 2131296820;
 			
 			// aapt resource value: 0x1
 			public const int BottomSheetBehavior_Layout_behavior_peekHeight = 1;
@@ -6857,8 +6922,8 @@ namespace ChatAppUsingFirebase
 			public static int[] ButtonBarLayout = new int[] {
 					2130968615};
 			
-			// aapt resource value: 0x7F050238
-			public const int ButtonBarLayout_allowStacking = 2131034680;
+			// aapt resource value: 0x7F090238
+			public const int ButtonBarLayout_allowStacking = 2131296824;
 			
 			public static int[] CastExpandedController = new int[] {
 					1,
@@ -6899,8 +6964,8 @@ namespace ChatAppUsingFirebase
 			// aapt resource value: 0x9
 			public const int CastExpandedController_castRewind30ButtonDrawable = 9;
 			
-			// aapt resource value: 0x7F050562
-			public const int CastExpandedController_castSeekBarProgressDrawable = 2131035490;
+			// aapt resource value: 0x7F090562
+			public const int CastExpandedController_castSeekBarProgressDrawable = 2131297634;
 			
 			// aapt resource value: 0x1
 			public const int CastExpandedController_castSeekBarThumbDrawable = 1;
@@ -6922,8 +6987,8 @@ namespace ChatAppUsingFirebase
 					1,
 					1};
 			
-			// aapt resource value: 0x7F050568
-			public const int CastIntroOverlay_castBackgroundColor = 2131035496;
+			// aapt resource value: 0x7F090568
+			public const int CastIntroOverlay_castBackgroundColor = 2131297640;
 			
 			// aapt resource value: 0x1
 			public const int CastIntroOverlay_castButtonBackgroundColor = 1;
@@ -7015,8 +7080,8 @@ namespace ChatAppUsingFirebase
 			// aapt resource value: 0x2
 			public const int CastMiniController_castSubtitleTextAppearance = 2;
 			
-			// aapt resource value: 0x7F050593
-			public const int CastMiniController_castTitleTextAppearance = 2131035539;
+			// aapt resource value: 0x7F090593
+			public const int CastMiniController_castTitleTextAppearance = 2131297683;
 			
 			public static int[] CollapsingToolbarLayout = new int[] {
 					2130968658,
@@ -7036,8 +7101,8 @@ namespace ChatAppUsingFirebase
 					2130968892,
 					2130968902};
 			
-			// aapt resource value: 0x7F050240
-			public const int CollapsingToolbarLayout_collapsedTitleGravity = 2131034688;
+			// aapt resource value: 0x7F090240
+			public const int CollapsingToolbarLayout_collapsedTitleGravity = 2131296832;
 			
 			// aapt resource value: 0x1
 			public const int CollapsingToolbarLayout_collapsedTitleTextAppearance = 1;
@@ -7070,8 +7135,8 @@ namespace ChatAppUsingFirebase
 					2130968760,
 					2130968761};
 			
-			// aapt resource value: 0x7F050257
-			public const int CollapsingToolbarLayout_Layout_layout_collapseMode = 2131034711;
+			// aapt resource value: 0x7F090257
+			public const int CollapsingToolbarLayout_Layout_layout_collapseMode = 2131296855;
 			
 			// aapt resource value: 0x1
 			public const int CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = 1;
@@ -7099,8 +7164,8 @@ namespace ChatAppUsingFirebase
 					16843551,
 					16843173};
 			
-			// aapt resource value: 0x7F050260
-			public const int ColorStateListItem_alpha = 2131034720;
+			// aapt resource value: 0x7F090260
+			public const int ColorStateListItem_alpha = 2131296864;
 			
 			// aapt resource value: 0x1
 			public const int ColorStateListItem_android_alpha = 1;
@@ -7113,8 +7178,8 @@ namespace ChatAppUsingFirebase
 					2130968650,
 					2130968651};
 			
-			// aapt resource value: 0x7F050264
-			public const int CompoundButton_android_button = 2131034724;
+			// aapt resource value: 0x7F090264
+			public const int CompoundButton_android_button = 2131296868;
 			
 			// aapt resource value: 0x1
 			public const int CompoundButton_buttonTint = 1;
@@ -7126,8 +7191,8 @@ namespace ChatAppUsingFirebase
 					2130968754,
 					2130968840};
 			
-			// aapt resource value: 0x7F050268
-			public const int CoordinatorLayout_keylines = 2131034728;
+			// aapt resource value: 0x7F090268
+			public const int CoordinatorLayout_keylines = 2131296872;
 			
 			public static int[] CoordinatorLayout_Layout = new int[] {
 					16842931,
@@ -7138,8 +7203,8 @@ namespace ChatAppUsingFirebase
 					2130968763,
 					2130968764};
 			
-			// aapt resource value: 0x7F050271
-			public const int CoordinatorLayout_Layout_android_layout_gravity = 2131034737;
+			// aapt resource value: 0x7F090271
+			public const int CoordinatorLayout_Layout_android_layout_gravity = 2131296881;
 			
 			// aapt resource value: 0x1
 			public const int CoordinatorLayout_Layout_layout_anchor = 1;
@@ -7175,8 +7240,8 @@ namespace ChatAppUsingFirebase
 			// aapt resource value: 0x2
 			public const int Corpus_contentProviderUri = 2;
 			
-			// aapt resource value: 0x7F050596
-			public const int Corpus_corpusId = 2131035542;
+			// aapt resource value: 0x7F090596
+			public const int Corpus_corpusId = 2131297686;
 			
 			// aapt resource value: 0x1
 			public const int Corpus_corpusVersion = 1;
@@ -7204,8 +7269,8 @@ namespace ChatAppUsingFirebase
 			// aapt resource value: 0x2
 			public const int CustomCastTheme_castExpandedControllerStyle = 2;
 			
-			// aapt resource value: 0x7F050605
-			public const int CustomCastTheme_castIntroOverlayStyle = 2131035653;
+			// aapt resource value: 0x7F090605
+			public const int CustomCastTheme_castIntroOverlayStyle = 2131297797;
 			
 			// aapt resource value: 0x1
 			public const int CustomCastTheme_castMiniControllerStyle = 1;
@@ -7217,16 +7282,16 @@ namespace ChatAppUsingFirebase
 			// aapt resource value: 0x1
 			public const int CustomWalletTheme_toolbarTextColorStyle = 1;
 			
-			// aapt resource value: 0x7F050609
-			public const int CustomWalletTheme_windowTransitionStyle = 2131035657;
+			// aapt resource value: 0x7F090609
+			public const int CustomWalletTheme_windowTransitionStyle = 2131297801;
 			
 			public static int[] DesignTheme = new int[] {
 					2130968639,
 					2130968640,
 					2130968879};
 			
-			// aapt resource value: 0x7F050279
-			public const int DesignTheme_bottomSheetDialogTheme = 2131034745;
+			// aapt resource value: 0x7F090279
+			public const int DesignTheme_bottomSheetDialogTheme = 2131296889;
 			
 			// aapt resource value: 0x1
 			public const int DesignTheme_bottomSheetStyle = 1;
@@ -7244,8 +7309,8 @@ namespace ChatAppUsingFirebase
 					2130968831,
 					2130968882};
 			
-			// aapt resource value: 0x7F050283
-			public const int DrawerArrowToggle_arrowHeadLength = 2131034755;
+			// aapt resource value: 0x7F090283
+			public const int DrawerArrowToggle_arrowHeadLength = 2131296899;
 			
 			// aapt resource value: 0x1
 			public const int DrawerArrowToggle_arrowShaftLength = 1;
@@ -7272,8 +7337,8 @@ namespace ChatAppUsingFirebase
 					1,
 					1};
 			
-			// aapt resource value: 0x7F050611
-			public const int FeatureParam_paramName = 2131035665;
+			// aapt resource value: 0x7F090611
+			public const int FeatureParam_paramName = 2131297809;
 			
 			// aapt resource value: 0x1
 			public const int FeatureParam_paramValue = 1;
@@ -7288,8 +7353,8 @@ namespace ChatAppUsingFirebase
 					2130968816,
 					2130968911};
 			
-			// aapt resource value: 0x7F050292
-			public const int FloatingActionButton_backgroundTint = 2131034770;
+			// aapt resource value: 0x7F090292
+			public const int FloatingActionButton_backgroundTint = 2131296914;
 			
 			// aapt resource value: 0x1
 			public const int FloatingActionButton_backgroundTintMode = 1;
@@ -7297,8 +7362,8 @@ namespace ChatAppUsingFirebase
 			public static int[] FloatingActionButton_Behavior_Layout = new int[] {
 					2130968632};
 			
-			// aapt resource value: 0x7F050301
-			public const int FloatingActionButton_Behavior_Layout_behavior_autoHide = 2131034881;
+			// aapt resource value: 0x7F090301
+			public const int FloatingActionButton_Behavior_Layout_behavior_autoHide = 2131297025;
 			
 			// aapt resource value: 0x2
 			public const int FloatingActionButton_borderWidth = 2;
@@ -7334,8 +7399,8 @@ namespace ChatAppUsingFirebase
 					2130968584,
 					2130968585};
 			
-			// aapt resource value: 0x7F050010
-			public const int FontFamilyFont_android_font = 2131034128;
+			// aapt resource value: 0x7F090010
+			public const int FontFamilyFont_android_font = 2131296272;
 			
 			// aapt resource value: 0x1
 			public const int FontFamilyFont_android_fontStyle = 1;
@@ -7352,8 +7417,8 @@ namespace ChatAppUsingFirebase
 			// aapt resource value: 0x5
 			public const int FontFamilyFont_fontWeight = 5;
 			
-			// aapt resource value: 0x7F050003
-			public const int FontFamily_fontProviderAuthority = 2131034115;
+			// aapt resource value: 0x7F090003
+			public const int FontFamily_fontProviderAuthority = 2131296259;
 			
 			// aapt resource value: 0x1
 			public const int FontFamily_fontProviderCerts = 1;
@@ -7375,8 +7440,8 @@ namespace ChatAppUsingFirebase
 					16843264,
 					2130968729};
 			
-			// aapt resource value: 0x7F050303
-			public const int ForegroundLinearLayout_android_foreground = 2131034883;
+			// aapt resource value: 0x7F090303
+			public const int ForegroundLinearLayout_android_foreground = 2131297027;
 			
 			// aapt resource value: 0x1
 			public const int ForegroundLinearLayout_android_foregroundGravity = 1;
@@ -7395,8 +7460,8 @@ namespace ChatAppUsingFirebase
 			public static int[] GlobalSearchCorpus = new int[] {
 					1};
 			
-			// aapt resource value: 0x7F050621
-			public const int GlobalSearchCorpus_allowShortcuts = 2131035681;
+			// aapt resource value: 0x7F090621
+			public const int GlobalSearchCorpus_allowShortcuts = 2131297825;
 			
 			public static int[] GlobalSearchSection = new int[] {
 					1,
@@ -7405,8 +7470,8 @@ namespace ChatAppUsingFirebase
 			// aapt resource value: 0x1
 			public const int GlobalSearchSection_sectionContent = 1;
 			
-			// aapt resource value: 0x7F050624
-			public const int GlobalSearchSection_sectionType = 2131035684;
+			// aapt resource value: 0x7F090624
+			public const int GlobalSearchSection_sectionType = 2131297828;
 			
 			// aapt resource value: 0x3
 			public const int GlobalSearch_defaultIntentAction = 3;
@@ -7417,8 +7482,8 @@ namespace ChatAppUsingFirebase
 			// aapt resource value: 0x4
 			public const int GlobalSearch_defaultIntentData = 4;
 			
-			// aapt resource value: 0x7F050617
-			public const int GlobalSearch_searchEnabled = 2131035671;
+			// aapt resource value: 0x7F090617
+			public const int GlobalSearch_searchEnabled = 2131297815;
 			
 			// aapt resource value: 0x1
 			public const int GlobalSearch_searchLabel = 1;
@@ -7434,8 +7499,8 @@ namespace ChatAppUsingFirebase
 					1,
 					1};
 			
-			// aapt resource value: 0x7F050626
-			public const int IMECorpus_inputEnabled = 2131035686;
+			// aapt resource value: 0x7F090626
+			public const int IMECorpus_inputEnabled = 2131297830;
 			
 			// aapt resource value: 0x1
 			public const int IMECorpus_sourceClass = 1;
@@ -7463,8 +7528,8 @@ namespace ChatAppUsingFirebase
 					2130968782,
 					2130968826};
 			
-			// aapt resource value: 0x7F050307
-			public const int LinearLayoutCompat_android_baselineAligned = 2131034887;
+			// aapt resource value: 0x7F090307
+			public const int LinearLayoutCompat_android_baselineAligned = 2131297031;
 			
 			// aapt resource value: 0x1
 			public const int LinearLayoutCompat_android_baselineAlignedChildIndex = 1;
@@ -7490,8 +7555,8 @@ namespace ChatAppUsingFirebase
 					16843137,
 					16842996};
 			
-			// aapt resource value: 0x7F050317
-			public const int LinearLayoutCompat_Layout_android_layout_gravity = 2131034903;
+			// aapt resource value: 0x7F090317
+			public const int LinearLayoutCompat_Layout_android_layout_gravity = 2131297047;
 			
 			// aapt resource value: 0x1
 			public const int LinearLayoutCompat_Layout_android_layout_height = 1;
@@ -7512,8 +7577,8 @@ namespace ChatAppUsingFirebase
 					16843436,
 					16843437};
 			
-			// aapt resource value: 0x7F050322
-			public const int ListPopupWindow_android_dropDownHorizontalOffset = 2131034914;
+			// aapt resource value: 0x7F090322
+			public const int ListPopupWindow_android_dropDownHorizontalOffset = 2131297058;
 			
 			// aapt resource value: 0x1
 			public const int ListPopupWindow_android_dropDownVerticalOffset = 1;
@@ -7523,14 +7588,14 @@ namespace ChatAppUsingFirebase
 					0,
 					0};
 			
-			// aapt resource value: 0x7F050542
-			public const int LoadingImageView_circleCrop = 2131035458;
+			// aapt resource value: 0x7F090542
+			public const int LoadingImageView_circleCrop = 2131297602;
 			
-			// aapt resource value: 0x7F050541
-			public const int LoadingImageView_imageAspectRatio = 2131035457;
+			// aapt resource value: 0x7F090541
+			public const int LoadingImageView_imageAspectRatio = 2131297601;
 			
-			// aapt resource value: 0x7F050540
-			public const int LoadingImageView_imageAspectRatioAdjust = 2131035456;
+			// aapt resource value: 0x7F090540
+			public const int LoadingImageView_imageAspectRatioAdjust = 2131297600;
 			
 			public static int[] MapAttrs = new int[] {
 					1,
@@ -7596,8 +7661,8 @@ namespace ChatAppUsingFirebase
 			// aapt resource value: 0x6
 			public const int MapAttrs_liteMode = 6;
 			
-			// aapt resource value: 0x7F050646
-			public const int MapAttrs_mapType = 2131035718;
+			// aapt resource value: 0x7F090646
+			public const int MapAttrs_mapType = 2131297862;
 			
 			// aapt resource value: 0x7
 			public const int MapAttrs_uiCompass = 7;
@@ -7634,8 +7699,8 @@ namespace ChatAppUsingFirebase
 					16843231,
 					16843156};
 			
-			// aapt resource value: 0x7F050325
-			public const int MenuGroup_android_checkableBehavior = 2131034917;
+			// aapt resource value: 0x7F090325
+			public const int MenuGroup_android_checkableBehavior = 2131297061;
 			
 			// aapt resource value: 0x1
 			public const int MenuGroup_android_enabled = 1;
@@ -7677,8 +7742,8 @@ namespace ChatAppUsingFirebase
 					2130968825,
 					2130968907};
 			
-			// aapt resource value: 0x7F050332
-			public const int MenuItem_actionLayout = 2131034930;
+			// aapt resource value: 0x7F090332
+			public const int MenuItem_actionLayout = 2131297074;
 			
 			// aapt resource value: 0x1
 			public const int MenuItem_actionProviderClass = 1;
@@ -7757,8 +7822,8 @@ namespace ChatAppUsingFirebase
 					2130968805,
 					2130968842};
 			
-			// aapt resource value: 0x7F050356
-			public const int MenuView_android_headerBackground = 2131034966;
+			// aapt resource value: 0x7F090356
+			public const int MenuView_android_headerBackground = 2131297110;
 			
 			// aapt resource value: 0x1
 			public const int MenuView_android_horizontalDivider = 1;
@@ -7796,8 +7861,8 @@ namespace ChatAppUsingFirebase
 					2130968753,
 					2130968783};
 			
-			// aapt resource value: 0x7F050366
-			public const int NavigationView_android_background = 2131034982;
+			// aapt resource value: 0x7F090366
+			public const int NavigationView_android_background = 2131297126;
 			
 			// aapt resource value: 0x1
 			public const int NavigationView_android_fitsSystemWindows = 1;
@@ -7834,11 +7899,11 @@ namespace ChatAppUsingFirebase
 			public static int[] PopupWindowBackgroundState = new int[] {
 					2130968837};
 			
-			// aapt resource value: 0x7F050381
-			public const int PopupWindowBackgroundState_state_above_anchor = 2131035009;
+			// aapt resource value: 0x7F090381
+			public const int PopupWindowBackgroundState_state_above_anchor = 2131297153;
 			
-			// aapt resource value: 0x7F050377
-			public const int PopupWindow_android_popupAnimationStyle = 2131034999;
+			// aapt resource value: 0x7F090377
+			public const int PopupWindow_android_popupAnimationStyle = 2131297143;
 			
 			// aapt resource value: 0x1
 			public const int PopupWindow_android_popupBackground = 1;
@@ -7850,8 +7915,8 @@ namespace ChatAppUsingFirebase
 					2130968790,
 					2130968793};
 			
-			// aapt resource value: 0x7F050383
-			public const int RecycleListView_paddingBottomNoButtons = 2131035011;
+			// aapt resource value: 0x7F090383
+			public const int RecycleListView_paddingBottomNoButtons = 2131297155;
 			
 			// aapt resource value: 0x1
 			public const int RecycleListView_paddingTopNoTitle = 1;
@@ -7869,8 +7934,8 @@ namespace ChatAppUsingFirebase
 					2130968830,
 					2130968836};
 			
-			// aapt resource value: 0x7F050386
-			public const int RecyclerView_android_descendantFocusability = 2131035014;
+			// aapt resource value: 0x7F090386
+			public const int RecyclerView_android_descendantFocusability = 2131297158;
 			
 			// aapt resource value: 0x1
 			public const int RecyclerView_android_orientation = 1;
@@ -7905,14 +7970,14 @@ namespace ChatAppUsingFirebase
 			public static int[] ScrimInsetsFrameLayout = new int[] {
 					2130968747};
 			
-			// aapt resource value: 0x7F050398
-			public const int ScrimInsetsFrameLayout_insetForeground = 2131035032;
+			// aapt resource value: 0x7F090398
+			public const int ScrimInsetsFrameLayout_insetForeground = 2131297176;
 			
 			public static int[] ScrollingViewBehavior_Layout = new int[] {
 					2130968634};
 			
-			// aapt resource value: 0x7F050400
-			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 2131035136;
+			// aapt resource value: 0x7F090400
+			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 2131297280;
 			
 			public static int[] SearchView = new int[] {
 					16842970,
@@ -7933,8 +7998,8 @@ namespace ChatAppUsingFirebase
 					2130968848,
 					2130968912};
 			
-			// aapt resource value: 0x7F050402
-			public const int SearchView_android_focusable = 2131035138;
+			// aapt resource value: 0x7F090402
+			public const int SearchView_android_focusable = 2131297282;
 			
 			// aapt resource value: 0x1
 			public const int SearchView_android_imeOptions = 1;
@@ -7996,8 +8061,8 @@ namespace ChatAppUsingFirebase
 			public static int[] SectionFeature = new int[] {
 					1};
 			
-			// aapt resource value: 0x7F050665
-			public const int SectionFeature_featureType = 2131035749;
+			// aapt resource value: 0x7F090665
+			public const int SectionFeature_featureType = 2131297893;
 			
 			// aapt resource value: 0x4
 			public const int Section_indexPrefixes = 4;
@@ -8011,8 +8076,8 @@ namespace ChatAppUsingFirebase
 			// aapt resource value: 0x1
 			public const int Section_sectionFormat = 1;
 			
-			// aapt resource value: 0x7F050661
-			public const int Section_sectionId = 2131035745;
+			// aapt resource value: 0x7F090661
+			public const int Section_sectionId = 2131297889;
 			
 			// aapt resource value: 0x3
 			public const int Section_sectionWeight = 3;
@@ -8025,22 +8090,22 @@ namespace ChatAppUsingFirebase
 					0,
 					0};
 			
-			// aapt resource value: 0x7F050544
-			public const int SignInButton_buttonSize = 2131035460;
+			// aapt resource value: 0x7F090544
+			public const int SignInButton_buttonSize = 2131297604;
 			
-			// aapt resource value: 0x7F050545
-			public const int SignInButton_colorScheme = 2131035461;
+			// aapt resource value: 0x7F090545
+			public const int SignInButton_colorScheme = 2131297605;
 			
-			// aapt resource value: 0x7F050546
-			public const int SignInButton_scopeUris = 2131035462;
+			// aapt resource value: 0x7F090546
+			public const int SignInButton_scopeUris = 2131297606;
 			
 			public static int[] SnackbarLayout = new int[] {
 					16843039,
 					2130968701,
 					2130968780};
 			
-			// aapt resource value: 0x7F050420
-			public const int SnackbarLayout_android_maxWidth = 2131035168;
+			// aapt resource value: 0x7F090420
+			public const int SnackbarLayout_android_maxWidth = 2131297312;
 			
 			// aapt resource value: 0x1
 			public const int SnackbarLayout_elevation = 1;
@@ -8055,8 +8120,8 @@ namespace ChatAppUsingFirebase
 					16843131,
 					2130968803};
 			
-			// aapt resource value: 0x7F050424
-			public const int Spinner_android_dropDownWidth = 2131035172;
+			// aapt resource value: 0x7F090424
+			public const int Spinner_android_dropDownWidth = 2131297316;
 			
 			// aapt resource value: 0x1
 			public const int Spinner_android_entries = 1;
@@ -8086,8 +8151,8 @@ namespace ChatAppUsingFirebase
 					2130968909,
 					2130968910};
 			
-			// aapt resource value: 0x7F050430
-			public const int SwitchCompat_android_textOff = 2131035184;
+			// aapt resource value: 0x7F090430
+			public const int SwitchCompat_android_textOff = 2131297328;
 			
 			// aapt resource value: 0x1
 			public const int SwitchCompat_android_textOn = 1;
@@ -8133,8 +8198,8 @@ namespace ChatAppUsingFirebase
 					16842994,
 					16843087};
 			
-			// aapt resource value: 0x7F050445
-			public const int TabItem_android_icon = 2131035205;
+			// aapt resource value: 0x7F090445
+			public const int TabItem_android_icon = 2131297349;
 			
 			// aapt resource value: 0x1
 			public const int TabItem_android_layout = 1;
@@ -8160,8 +8225,8 @@ namespace ChatAppUsingFirebase
 					2130968867,
 					2130968868};
 			
-			// aapt resource value: 0x7F050449
-			public const int TabLayout_tabBackground = 2131035209;
+			// aapt resource value: 0x7F090449
+			public const int TabLayout_tabBackground = 2131297353;
 			
 			// aapt resource value: 0x1
 			public const int TabLayout_tabContentStart = 1;
@@ -8223,8 +8288,8 @@ namespace ChatAppUsingFirebase
 					2130968720,
 					2130968869};
 			
-			// aapt resource value: 0x7F050466
-			public const int TextAppearance_android_fontFamily = 2131035238;
+			// aapt resource value: 0x7F090466
+			public const int TextAppearance_android_fontFamily = 2131297382;
 			
 			// aapt resource value: 0x1
 			public const int TextAppearance_android_shadowColor = 1;
@@ -8280,8 +8345,8 @@ namespace ChatAppUsingFirebase
 					2130968800,
 					2130968801};
 			
-			// aapt resource value: 0x7F050480
-			public const int TextInputLayout_android_hint = 2131035264;
+			// aapt resource value: 0x7F090480
+			public const int TextInputLayout_android_hint = 2131297408;
 			
 			// aapt resource value: 0x1
 			public const int TextInputLayout_android_textColorHint = 1;
@@ -8359,8 +8424,8 @@ namespace ChatAppUsingFirebase
 					2130968899,
 					2130968900};
 			
-			// aapt resource value: 0x7F050497
-			public const int Toolbar_android_gravity = 2131035287;
+			// aapt resource value: 0x7F090497
+			public const int Toolbar_android_gravity = 2131297431;
 			
 			// aapt resource value: 0x1
 			public const int Toolbar_android_minHeight = 1;
@@ -8458,8 +8523,8 @@ namespace ChatAppUsingFirebase
 					2130968629,
 					2130968630};
 			
-			// aapt resource value: 0x7F050533
-			public const int ViewBackgroundHelper_android_background = 2131035443;
+			// aapt resource value: 0x7F090533
+			public const int ViewBackgroundHelper_android_background = 2131297587;
 			
 			// aapt resource value: 0x1
 			public const int ViewBackgroundHelper_backgroundTint = 1;
@@ -8472,8 +8537,8 @@ namespace ChatAppUsingFirebase
 					16842995,
 					16842994};
 			
-			// aapt resource value: 0x7F050537
-			public const int ViewStubCompat_android_id = 2131035447;
+			// aapt resource value: 0x7F090537
+			public const int ViewStubCompat_android_id = 2131297591;
 			
 			// aapt resource value: 0x1
 			public const int ViewStubCompat_android_inflatedId = 1;
@@ -8481,8 +8546,8 @@ namespace ChatAppUsingFirebase
 			// aapt resource value: 0x2
 			public const int ViewStubCompat_android_layout = 2;
 			
-			// aapt resource value: 0x7F050527
-			public const int View_android_focusable = 2131035431;
+			// aapt resource value: 0x7F090527
+			public const int View_android_focusable = 2131297575;
 			
 			// aapt resource value: 0x1
 			public const int View_android_theme = 1;
@@ -8502,8 +8567,8 @@ namespace ChatAppUsingFirebase
 					1,
 					1};
 			
-			// aapt resource value: 0x7F050667
-			public const int WalletFragmentOptions_appTheme = 2131035751;
+			// aapt resource value: 0x7F090667
+			public const int WalletFragmentOptions_appTheme = 2131297895;
 			
 			// aapt resource value: 0x1
 			public const int WalletFragmentOptions_environment = 1;
@@ -8530,8 +8595,8 @@ namespace ChatAppUsingFirebase
 			// aapt resource value: 0x3
 			public const int WalletFragmentStyle_buyButtonAppearance = 3;
 			
-			// aapt resource value: 0x7F050673
-			public const int WalletFragmentStyle_buyButtonHeight = 2131035763;
+			// aapt resource value: 0x7F090673
+			public const int WalletFragmentStyle_buyButtonHeight = 2131297907;
 			
 			// aapt resource value: 0x2
 			public const int WalletFragmentStyle_buyButtonText = 2;

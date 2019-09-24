@@ -15,14 +15,6 @@
       },
       "oauth_client": [
         {
-          "client_id": "106064262407-c2bpobb7as59l1ke4sc74ipjuvnss4ph.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "ChatAppUsingFirebase.ChatAppUsingFirebase",
-            "certificate_hash": "48ebd1b046eb9ea622a7023a49ebe87c821bf658"
-          }
-        },
-        {
           "client_id": "106064262407-1ev7bna9j73pudk4d1663sdrrrmojd7g.apps.googleusercontent.com",
           "client_type": 3
         }
